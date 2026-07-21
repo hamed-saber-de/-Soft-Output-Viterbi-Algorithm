@@ -148,7 +148,7 @@ Anschließend wurden sämtliche Verfahren hinsichtlich ihres Einflusses auf die 
 
 ## Trellis-Diagramm für den Viterbi-Algorithmus
 
-![Trellis-Diagramm](bilder/trellis-diagramm.png.png)
+![Trellis-Diagramm](bilder/trellis-diagramm.png)
 
 Diese Abbildung zeigt das vollständige Trellis-Diagramm des Viterbi-Algorithmus. Alle möglichen Zustandsübergänge werden dargestellt und bilden die Grundlage für die Maximum-Likelihood-Sequenzdetektion.
 
@@ -156,7 +156,7 @@ Diese Abbildung zeigt das vollständige Trellis-Diagramm des Viterbi-Algorithmus
 
 ## Kanal-Trellis-Diagramm
 
-![Kanal-Trellis-Diagramm](bilder/kanal-trellis-diagramm.png.png)
+![Kanal-Trellis-Diagramm](bilder/kanal-trellis-diagramm.png)
 
 Das Kanal-Trellis-Diagramm visualisiert den Zustandsraum des simulierten Übertragungskanals. Der rot markierte Pfad entspricht der vom Decoder bestimmten wahrscheinlichsten Zustandsfolge.
 
@@ -164,7 +164,7 @@ Das Kanal-Trellis-Diagramm visualisiert den Zustandsraum des simulierten Übertr
 
 ## Überlebens- und Concurrentpfade
 
-![Überlebens- und Concurrentpfade](bilder/überlebens-und-konkurrentpfade.png.png)
+![Überlebens- und Concurrentpfade](bilder/überlebens-und-konkurrentpfade.png)
 
 Diese Darstellung zeigt den Survivor Path sowie die konkurrierenden Pfade innerhalb des Trellis. Dadurch lässt sich nachvollziehen, welche alternativen Zustandsfolgen während der Decodierung berücksichtigt werden.
 
@@ -172,7 +172,7 @@ Diese Darstellung zeigt den Survivor Path sowie die konkurrierenden Pfade innerh
 
 ## Survivor and Concurrent Paths with LLR Annotations
 
-![Survivor and Concurrent Paths with LLR Annotations](bilder/überlebenspfad-llr-anmerkungen.png.png)
+![Survivor and Concurrent Paths with LLR Annotations](bilder/überlebenspfad-llr-anmerkungen.png)
 
 Diese Abbildung zeigt die Survivor- und Concurrentpfade einschließlich der berechneten Log-Likelihood Ratios (LLR). Die dargestellten LLR-Werte veranschaulichen die Zuverlässigkeit der jeweiligen Bitentscheidungen.
 
@@ -180,7 +180,7 @@ Diese Abbildung zeigt die Survivor- und Concurrentpfade einschließlich der bere
 
 ## Survivor and Concurrent Paths with LLR Annotations (Simple Rule)
 
-![Simple Rule](bilder/überlebenspfad-simple-regel.png.png)
+![Simple Rule](bilder/überlebenspfad-simple-regel.png)
 
 Darstellung der Survivor- und Concurrentpfade unter Verwendung der **Simple Rule** zur Berechnung der Log-Likelihood Ratios.
 
@@ -188,7 +188,7 @@ Darstellung der Survivor- und Concurrentpfade unter Verwendung der **Simple Rule
 
 ## Survivor and Concurrent Paths with LLR Annotations (Huber Rule)
 
-![Huber Rule](bilder/überlebenspfad-huber-regel.png.png)
+![Huber Rule](bilder/überlebenspfad-huber-regel.png)
 
 Visualisierung der Survivor- und Concurrentpfade unter Anwendung der **Huber Rule**. Die berechneten LLR-Werte ermöglichen einen direkten Vergleich mit den anderen Verfahren.
 
@@ -196,7 +196,7 @@ Visualisierung der Survivor- und Concurrentpfade unter Anwendung der **Huber Rul
 
 ## Survivor and Concurrent Paths with LLR Annotations (Battail Rule)
 
-![Battail Rule](bilder/überlebenspfad-battail-regel.png.png)
+![Battail Rule](bilder/überlebenspfad-battail-regel.png)
 
 Darstellung der Survivor- und Concurrentpfade unter Verwendung der **Battail Rule**. Dieses Verfahren dient der Bewertung der Bitzuverlässigkeit anhand alternativer Pfade.
 
@@ -204,7 +204,7 @@ Darstellung der Survivor- und Concurrentpfade unter Verwendung der **Battail Rul
 
 ## LLR-Vergleich
 
-![LLR-Vergleich](bilder/llr-vergleich.png.png)
+![LLR-Vergleich](bilder/llr-vergleich.png)
 
 Vergleich der berechneten Log-Likelihood Ratios für die implementierten Verfahren **Simple Rule**, **Huber Rule** und **Battail Rule**.
 
@@ -212,7 +212,7 @@ Vergleich der berechneten Log-Likelihood Ratios für die implementierten Verfahr
 
 ## Single-Hop Section
 
-![Single-Hop Section](bilder/single-hop-abschnitt.png.png)
+![Single-Hop Section](bilder/single-hop-abschnitt.png)
 
 Diese Detailansicht zeigt einen einzelnen Übergang innerhalb des Trellis. Dargestellt werden die Branch-Metriken und Zustandsübergänge zwischen zwei aufeinanderfolgenden Zeitschritten.
 
